@@ -1,0 +1,35 @@
+:root {
+    --grisclair : #FFFDF4;
+    --orange : #F5B400;
+}
+
+#content {
+    padding: 3rem 0;
+    min-height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    padding: 1rem 0;
+}
+
+td {
+    padding: 0.5rem 0;
+}
+
+.thead {
+    background-color: var(--orange) !important;
+}
+
+tr:nth-child(odd) {
+    background: rgb(216, 213, 213);
+}
